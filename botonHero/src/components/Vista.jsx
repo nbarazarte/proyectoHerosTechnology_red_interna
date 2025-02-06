@@ -10,7 +10,7 @@ import logo from '../assets/images/logo_heros.png';
 import avatar from '../assets/images/logo_heros.jpg';
 
 const DataTable = () => {
-    const urlApiBoton = import.meta.env.REACT_APP_URL_API_BOTON_SERVIDOR_PUBLICO;
+    const urlApiBoton = import.meta.env.REACT_APP_URL_API_BOTON_SERVIDOR;
     const [url, setUrl] = useState(urlApiBoton);
     const tokenApi = import.meta.env.REACT_APP_TOKEN;
     const headers = { 'Authorization': `Bearer ${tokenApi}` };
